@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Img/luna icon.ico" type="icono">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Examen Bimestral</title>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <a href="#" class="header-jochi"> <b>Lista con Figuras ☪</b></a>
+        </div>
+    </header>
+    <div class="container">
+        <form id="orden" class="orden" id>
+
+            <label for="name">Inserta el nombre:</label>
+            <input id="nombre" type="text">
+            <label for="name">Formas:</label>
+            <select placeholder="Forma" name="" id="forma">
+                <option value="all">Todo</option>
+                <option value="circulo">Circulo</option>
+                <option value="cuadrado">Cuadrado</option>
+                <option value="rectangulo">Rectángulo</option>
+                <option value="paralelogramo">Paralelogramo</option>
+            </select>
+
+            <label for="correo">Colores:</label>
+            <input type="color" id="color">
+
+            <button id="save-btn"> <b>Agregar</b></button>
+        </form>
+        <div class="mostrar">
+            <h1>Lista</h1>
+            <div class="almacen" id="list-container">
+
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

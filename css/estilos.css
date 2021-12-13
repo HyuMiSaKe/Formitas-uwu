@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p{
+    font-size: 30px;
+}
+
+body{
+    width: 100%;
+    justify-content: space-between;
+    background-image: url(../img/Fondo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    margin: 2em;
+}
+header{
+    background-color: #f1e755;
+    color: rgb(0, 0, 0);;
+    padding: 0.5rem 2rem;
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+.header-container a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: 'Indie Flower';
+  
+  }
+  
+  .header-jochi {
+    font-size: 50px;
+  }
+.orden{
+    background-color: #c2bf2285;
+    padding: 0.8rem;
+    overflow: hidden;
+    color: rgb(0, 0, 0);
+    width: 30%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.orden label{
+    display: block;
+    width: 100%;
+    margin-bottom: 8px;
+    font-family:'Indie Flower';
+
+}
+.orden input, .orden select{
+    display: block;
+    width: 100%;
+    margin-bottom: 8px;
+    font-family:'Indie Flower';
+    background-color: #e6da39;
+}
+
+.orden label{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.orden input{
+    border: none;
+    margin-bottom: 10px;
+    font-size: 13px;
+    padding: 9px;
+    outline: none;
+    background-color: #e6da39;
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #c0a0c3;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: 'Indie Flower';
+    cursor: pointer;
+    display: inline-block;
+    background-color: rgb(255, 230, 0);
+    font-weight: 800;
+    text-transform: uppercase;
+    transition: all 1.3s;
+    height: 40px;
+    left:40%;
+    right: 30ch;
+    top:40cm;
+    border-radius: 50px;
+}
+
+
+button:hover {
+  outline: none;
+  background-color: #f77409;
+  color: rgb(255, 255, 255);
+}
+
+
+.mostrar{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    height: 80%;
+    background-color: #8f7193;
+    width: 70%;
+    height: 90h;
+    background-color: #c2bf2285;
+    font-family: 'Indie Flower';
+}
+h1{
+    padding: 0.5em;
+
+}
+.almacen{
+    margin: 2em;
+}
+.cuadrado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10em;
+    height: 10em;
+    margin-top: 2em;
+ 
+}
+.circulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 10em;
+    height: 10em;
+    margin-top: 2em;
+}
+
+.rectangulo{
+    width: 250px;
+    height: 100px;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paralelogramo{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 150px; 
+    height: 100px; 
+    background: #428bca;
+    -webkit-transform: skew(20deg);
+    -moz-transform: skew(20deg);
+    -ms-transform: skew(20deg);
+    -o-transform: skew(20deg);
+    transform: skew(20deg);
+}
